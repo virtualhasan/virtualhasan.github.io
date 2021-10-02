@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,400&display=swap');
+
+/* reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Declare Variable */
+:root {
+    --primary: blue;
+    --light: #fff;
+    --off-dark: #333;
+}
+
+
+/* Common Style */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(#2193b0 ,#6dd5ed);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+
+
+/* START TOP HEADER SECTION */
+
+.avator {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 1rem;
+    border: 1px solid rgb(150, 18, 226);
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.social-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.link, .link:visited, .link:active {
+    font-size: 3.5rem;
+    padding: 0 1.5rem;    
+    color: blue;
+}
+
+.link-github, .link-github:visited {
+    color: #111 ;
+}
+
+/* END TOP HEADER SECTION */
